@@ -5,7 +5,7 @@ from Tests.BaseTest import BaseTest
 from xml.sax.saxutils import escape, unescape
 
 
-class testModFileReader(BaseTest):
+class TestModFileReader(BaseTest):
     def test_check_strname_encoded_in_xml_file_after_parsing(self):
         filename = self.unpack_filename('sample_files/frankies_wild_ride/treasuretable.xml')
         escape_dir = {'\'': '&apos;'}
