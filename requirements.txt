@@ -4,3 +4,4 @@ pytest-randomly
 pytest-subtests
 hypothesis
 ruff >= 0.1.5
+defusedxml
