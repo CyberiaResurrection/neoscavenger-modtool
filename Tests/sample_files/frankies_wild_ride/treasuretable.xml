@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pma_xml_export version="1.0">
+    <!--
+    - Database: 'neogame'
+    -->
+    <database name="neogame">
+      <!--treasuretables start {{{-->
+        <table name="treasuretable">
+          <!--This is a rather stupid, sample file to help wring out XML parsing-->
+            <column name="id">1</column>
+            <column name="strName">North &amp; Shtarker's Wild Ride</column>
+            <column name="aTreasures">0</column>
+            <column name="bNested">0</column>
+            <column name="bSuppress">0</column>
+            <column name="bIdentify">0</column>
+        </table>
+        <!--treasure tables end }}}-->
+    </database>
+</pma_xml_export>
